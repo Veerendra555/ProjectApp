@@ -1,0 +1,111 @@
+/*Header Part*/
+*{
+  padding:0px;
+  margin:0px;
+}
+#navbar{
+	position:fixed;
+	width:100%;
+	top:0px;
+}
+#header
+{
+	background-image: url('../Images/header-bg.jpg');
+	color:#00DDAf;
+	padding:9px;
+}
+.a1{
+     text-decoration:none;
+     color:#AAFFCC;
+   }
+   button.bt:hover{
+   	background-color:blue;
+   }
+/* End Header Part*/
+/*Form Part*/
+ #data
+ {
+ 	display:none;
+ }
+/*End Form Part*/
+ /*carousel Part*/
+.cimg{
+	width:100%;
+	height:400px;
+}
+
+.cicon{
+	padding:0px;
+	margin:0px;
+}
+ /*End carousel*/
+ /*content strat*/
+ .navitem{
+ 	font-size:20px;
+ 	font-weight:bold;
+    color:#00AACC;
+ }
+
+ .conimg
+ {
+ 	width:100px;
+ 	height:100px;
+ 	display:inline-flex;
+
+ }
+ /*Ent content*/
+  /*footer starts*/
+   .foot
+   {
+   	 width:100%;
+    height:240px;
+    background-color :black;
+    opacity:0.8;
+   }
+   .details
+   {
+    font-weight:bold;
+    font-size:20px;
+    font-style:all;
+    color:#55AACC;
+   }
+   .ficon
+   {
+    padding:4px;
+   }
+   .copy{
+    font-style: italic;
+    font-weight: bold;
+    background-color:black;
+    color:white;
+    text-align:center;
+   }
+   /*footer ends*/
+
+/*contact us starts*/
+*{
+  padding:0px;
+  margin:0px;
+}
+.td{
+  font-weight:bold;
+  font-size:21px;
+  margin-top:3px;
+  color:#A7C116;
+
+}
+/*contact us Ends*/
+
+/*Feed Back start*/
+.ftd{
+  font-weight:bold;
+  font-size:21px;
+  margin-top:3px;
+  color:blue;
+
+}
+/*Feed Back start*/
+
+
+
+ 

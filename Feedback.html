@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FeedBack</title>
+	<link rel="stylesheet" href="css/project.css">
+	<link rel="stylesheet" href="css/jquery.floating-social-share.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/project.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/project.js"></script>
+  <style type="text/css">
+ body{
+   background:url("Images/feedback.jpg");
+   background-repeat:no-repeat;
+   background-size:cover; 
+    }
+</style>
+</head>
+<body>
+	<h5><a href="Index.html" class="text-primary m-2" style="text-decoration:none;font-style:italic;">Home</a></h5>
+	<div class="container">
+		<div class="form-group">
+			<h2 class="p-4" style="text-align:center;color:#F21738">Contact Us</h2>
+			<thead></thead>
+		  <table class="table table-boderedless"> 
+		  	<tbody>
+		  		<tr>
+		  			<td class="ftd">First Name</td>
+		  			<td><input type="text" class="form-control a" name="cfname" required placeholder="Enter firstname"></td>
+		  		</tr>
+		  		<tr>
+		  			<td class="ftd">Last Name</td>
+		  			<td><input type="text" class="form-control" name="cname" required placeholder="Enter surname"></td>
+		  		</tr>
+		  		<tr>
+		  			<td class="ftd">Mail Id</td>
+		  			<td><input type="email" class="form-control" name="cemail" required placeholder="Enter valid mail id"></td>
+		  		</tr>
+		  		<tr>
+		  			<td class="ftd">Mobile No</td>
+		  			<td><input type="number" class="form-control" name="cphno" required placeholder="Mobile number" maxlength="10" minlength="10"></td>
+		  		</tr>
+		  		<tr>
+		  			<td class="ftd">Do you feel any problem</td>
+		  			<td><select required id="fyon" onchange="feedback(this)">
+		  				<option value="">-select-</option>
+		  				<option value="yes">Yes</option>
+		  				<option value="no">No</option>
+		  			</select>
+		  			</td>
+		  		</tr>
+		  		<tr>
+		  	<td class="ftd">Feedback</td>
+		  	<td>
+		  		<textarea class="form-control" name="ctext" required placeholder="Enter your Feedback" id="ctext"></textarea>
+		  	</td>
+		  		</tr>
+		  	</tbody>
+		  	<tfooter></tfootet>
+		  		<tr>
+		  			<td><input type="submit" value="submit" class="btn btn-danger "></td>
+		  			<td><input type="reset" value="clear" class="btn btn-danger"></td>
+		  		</tr>
+		  </table>
+		</div>
+	</div>
+
+
+</body>
+</html>

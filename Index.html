@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Projects</title>
+    <link rel="stylesheet" href="css/jquery.floating-social-share.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/project.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+     <script src="js/wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/project.js"></script>
+</head>
+<body>
+	<!-- Header part and navbar -->
+	<div class="container-fludi">
+	<marquee id="header" onmouseover="stop()" onmouseleave="start()">Welcome To Projects Here We Can download all new Boostrap, Mean And Angular projects</marquee>
+	 <nav class="navbar navbar-expand-md  bg-dark navbar-dark navbar-stricy">
+	 	<div class="navbar-brand"><a href="#" class="a1">Project</a></div>
+	 	<button class="navbar-toggler" data-target="#sahitem" data-toggle="collapse">
+	 		<span class="navbar-toggler-icon"></span>
+	 	</button>
+	 	<div class="collapse navbar-collapse" id="sahitem">
+	 		<ul class="navbar-nav">
+	 			<li class="nav-item">
+	 				<a href="#" class="nav-link active">Home</a>
+	 			</li>
+	 			<li class="navbar-item dropdown">
+	 				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">New Projects</a>
+	 				<ol class="dropdown-menu bg-dark">
+	 				<li class="dropdown-item"><a href="#" class="a1">UI</a></li>
+	 				<li class="dropdown-item"><a href="#" class="a1">Angular</a></li>
+	 				<li class="dropdown-item"><a href="#" class="a1">React</a></li>
+	 				<li class="dropdown-item"><a href="#" class="a1">Mean</a></li>
+	 				</ol>
+	 			</li>
+	 			<li class="nav-item dropdown">
+	 				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Upload Project</a>
+	 				<ol class="dropdown-menu bg-dark">
+	 				<li class="dropdown-item"><a href="#" class="a1">UI</a></li>
+	 				<li class="dropdown-item"><a href="#" class="a1">Angular</a></li>
+	 				<li class="dropdown-item"><a href="#" class="a1">React</a></li>
+	 				<li class="dropdown-item"><a href="#" class="a1">Mean</a></li>
+	 				</ol>
+	 			</li>
+	 			<li>
+	 				<a href="contactus.html" class="nav-link">Contact Us</a>
+	 			</li>
+	 			<li class="nav-item">
+	 				<a href="Feedback.html" class="nav-link">Feedback</a>
+	 			</li>
+	 		</ul>
+	 		<ul class="navbar-nav ml-auto">
+	 			<button class="btn bg-danger mr-2 bt" data-target="#login" data-toggle="modal">Login</button>
+	 			<button class="btn bg-danger bt" data-target="#signup" data-toggle="modal">Signup</button>
+	 		</ul>
+	 		</div>
+	 </nav> 
+	</div>
+    <!-- End Header and navbar-->
+    <!--Login And SignUp Forms-->
+    <!-- login -->
+    <div class="container">
+     <div class="modal fade" id="login">
+     	<div class="modal-dialog">
+     	<div class="modal-content">
+     	<div class="modal-header">
+     		<h6 class="modal-title ">Login</h6>
+     		<button class="close" data-dismiss="modal">&times;</button>
+     	</div>
+     	<div class="modal-body">
+     		<div class="form-group">
+     			<label>Username</label>
+     			<input type="text" name="username" class="form-control" required>
+     			<label>Password</label>
+     			<input type="password" name="pwd" class="form-control" required>
+     		</div>
+     	</div>
+     	<div class="modal-footer">
+     		<input type="submit" class="btn btn-primary" value="login">
+     		<input type="reset" class="btn btn-primary" value="clear">
+     	</div>
+     	</div>
+     	</div>
+     </div>
+     </div>
+      <!-- login -->
+       <!-- signup -->
+         <div class="modal fade" id="signup">
+         	<div class="modal-dialog modal-dialog-scrollable">
+         		<div class="modal-content">
+         			<div class="modal-header">
+         				<h5 class="modal-title">Registration</h5>
+         				<button class="close" data-dismiss="modal">&times;</button>
+         			</div>
+         			<div class="modal-body">
+         				<div class="form-group">
+         				 <label>Firstname</label>
+         				 <input type="text" name="fname" class="form-control">
+         				 <label>Lastname</label>
+         				 <input type="text" name="lname" class="form-control">
+         				 <label class="pt-2 mr-4">Gender</label>
+         				 <div class="form-check form-check-inline">
+         				 <input type="radio" name="gender" class="form-check-input " value="male">
+         				 <label class="form-check-label mr-3">Male</label>
+         				 <input type="radio" name="gender" class="form-check-input" value="female">
+         				 <label class="form-check-label">Female</label>
+         				 </div><br>
+         				 <label>Mail id</label>
+         				 <input type="mail" name="mail" class="form-control">
+         				 <label>Password</label>
+         				 <input type="password" name="pwd" class="form-control">
+         				 <label>Confirm Password</label>
+         				 <input type="password" name="pwd" class="form-control">
+         				 <label>Mobile</label>
+         				 <input type="number" name="phno" class="form-control">
+         				 <div class="form-check mt-4">
+                        <input type="checkbox" name="tandc" class="form-check-input"><a href='#tc' data-toggle="modal" style="text-decoration:none;">Accepting Terms And Conditions</a><br>         
+                         </div>
+                        </div>
+         			</div>
+         			<div class="modal-footer">
+         				<div class="form-group">
+         					<input type="submit" value="submit" class="btn btn-primary">
+         					<input type="reset" value="clear" class="btn btn-primary">
+         				</div>
+         			</div>
+         		</div>
+         	</div>
+         </div>
+         <div class="modal fade" id="tc">
+             <div class="modal-dialog modal-dialog-scrollable">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                     <h5 class="modal-tittle">Tearms And Conditions</h5>
+                     </div>
+                     <div class="modal-body">
+                        <p>1.Do not upload the content copied from other websites</p>
+                        <p>2.Do not copy the content from my application in this website</p>
+                        <p>3.This site is only for content created by you</p>
+                        <p>5.Do not post unwanted material in this site</p>
+                        <p>6.Regarding to logo, images and content all rights are reserved</p>
+                        <p>7.Do not post unwanted material in this site</p>
+                        <p>8.We can send our promotions messages and replies to your queries to your email address and registered mobile number</p>
+                     </div>
+                     <div class="modal-footer">
+                         <button class="btn btn-dark" data-dismiss="modal">I Read T & C</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        <!-- signup -->
+    <!--End Login And SignUp Forms-->
+    <!-- carousel start-->
+    <div class="container">
+    <div class="carousel slide mt-2" data-ride="carousel" id="c">
+    	<ul class="carousel-indicators">
+    		<li data-target="#c" data-slide-to='0' class="active"></li>
+    		<li data-target="#c" data-slide-to='1'></li>
+    		<li data-target="#c" data-slide-to='2'></li>
+            <li data-target="#c" data-slide-to='3'></li>
+    	</ul>
+    	<div class="carousel-inner">
+    		<div class="carousel-item active">
+    			<img src="Images/carousel1.jpg" class="cimg">
+    		</div>
+    		<div class="carousel-item">
+    			<img src="Images/carousel2.png" class="cimg">
+    		</div>
+    		<div class="carousel-item">
+    			<img src="Images/carousel3.png" class="cimg">
+    		</div>
+            <div class="carousel-item">
+                <img src="Images/carousel4.png" class="cimg">
+            </div>
+    	</div>
+    	<a  class="carousel-control-prev cicon" href="#c" data-slide="prev">
+    		<span class="carousel-control-prev-icon"></span>
+    	</a>
+    	<a  class="carousel-control-next cicon" href="#c" data-slide="next">
+    		<span class="carousel-control-next-icon"></span>
+    	</a>
+    </div>
+    </div>
+    <!-- carousel End-->
+    <!-- content start-->
+    <div class="container border mt-2">
+    	<h4 class="title pt-1" style="color:#F77006;">About Application</h4>
+    	<div class="wow slideInLeft" data-wow-offset="10">Hi friends, this application is mainly useful for Downloading and Uploading UI, Angular and Mean Applications. <br></div>
+           <div class="wow slideInRight text-justify" data-wow-offset="10"><span class="navitem">1.New Projects</span><p>Just by clicking new projects in the Navbar we can get a dropdown menu of items. In that, select one option you want. It will redirect to another page. In that page, applications are available in zip folder. Now you can download zip folder and then unzip to use. A tutorial video placed below, will help you run the Application. If you are facing any issues in running the project, contact us. We will help you.</p></div>
+          <div class="wow bounceInUp text-justify" data-wow-offset="10"><span class="navitem">2.Upload Projects</span><p>Just by clicking Upload projects in the Navbar we can get a dropdown menu of items. In that, select one option your application belongs to. It will redirect to another page. In that fill some necessary data and then upload folder in zip format. A tutorial video placed below will help you for uploading the project. If you are facing any issues in uploading the project, contact us. We will help you.</p></div>
+    <div class="wow bounceInDown text-justify"><span class="navitem">3.Contact Us</span><p>If you are facing any issues in running the project or uploading the project, contact us.We will reply you in a short span of time.</p></div>
+        </div>
+    </div> 
+    <!-- content Ends-->
+     <!-- My details-->
+    <div class="container p-1">
+        <div class="media border">
+            <img src="Images/mypic.jpg"  alt="mypic" class="conimg rounded-circle p-3 align-self-center">
+        <div class="media-body mt-2">
+            <h4>veerendra<span class="pl-2"><i>posted on 1<sup>st</sup> june 2020</i></span></h4>
+            <p class="text-justify p-1">Hi every one. I hope this application will help you both learning and Developing web application by using mean stack. If you develop any application using mean, ui, boostrap  or angular, upload that in this website. It will be helpful to others. Thank you. 
+            </p>
+             </div> 
+        </div>
+    </div>
+     <!-- My details Ends-->
+     <!--  Footer  start-->
+     <div class="container-fluid">
+         <div class="footer foot">
+                <span class="text-primary ml-5 ">Get Notification</span>
+                <div class="row">
+                <div class="col-md-3">
+                <div class="form-group mr-auto">
+                <input type="mail" name="mailid" placeholder="Enter mail id" class="form-control mt-3 ml-4">
+                <div class="row">
+                <div class="col-md-10">
+                <button class="btn btn-primary offset-2 mt-2" >subscibe</button>
+                </div>
+            </div>
+            </div>
+        </div>
+          <div class="col-md-6 m-3 ml-5 details"><span class="font-bold text-warning">Contact Us<br></span><i class="fa fa-map-marker ficon"style="color:blue;"></i>Saibaba temple street kanteru,iragavaram mandal,west godavari<br>&nbsp; &nbsp; Andhra Pradesh pincode : 534126<br> 
+             <i class="fa fa-mobile ficon" style="color:pink;"></i>Mobile : +91 9100492944 / +91 9492493149<br> 
+            <i class="fa fa-whatsapp ficon" style="color:green;"></i>WhatsApp : +91 9100492944 <br> 
+        <i class="fa fa-envelope ficon" style="color:red"></i>Email : saiveerendra5553@gmail.com</div>
+         <div class="col-md-1">
+             <img src="Images/Logo.png" alt="logo" class="mt-2" style="width:200px;height:200px;background-color:white;opacity:0.7">
+         </div>
+             </div>
+            </div>
+         <div class="copy p-4">© 2020-2021.All Rights Reserved.Logo,Images,Content are the Properties of the Respective Owner.</div>   
+</div>
+     <!-- Footer Ends-->
+<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/jquery.floating-social-share.min.js">
+</script>
+     <script>
+  $("body").floatingSocialShare({
+    buttons: [
+      "facebook", "whatsapp",
+      "telegram",  "twitter", "mail", "linkedin"
+    ],
+    text: "share with: ",
+    url: "https://github.com/ozdemirburak/jquery-floating-social-share"
+  });
+</script>
+</body>
+</html> 
